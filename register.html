@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title></title>
 </head>
+
 <body>
 	<from>
-		First Name:<input type="text" name="First Name"><br>
-		Lasr Name:<input type="text" name="Last Name"><br>
-		Email*:<input type="email" required><br>
-		Password*: <input type="password" min="5"><br>
-		Birthday: <input type="date"><br>
+		First Name:<input type="text" name="first name"><br>
+		Lasr Name:<input type="text" name="last name"><br>
+		Email*:<input type="email" required name="email"><br>
+		Password*: <input type="password" min="5" name="password"><br>
+		Birthday: <input type="date" name = "birthday"><br>
 		Gender: <br>
-		<input type="radio" name="Gender">Male<br>
-		<input type="radio" name="Gender">Female<br>
-		<input type="radio" name="Gender">Others<br>
+		<input type="radio" name="gender" value="">Male<br>
+		<input type="radio" name="gender">Female<br>
+		<input type="radio" name="gender">Others<br>
 		Cars: <br>
-		<select>
-			<option value=""></option>
-			<option value="Totoya">Totoya</option>
-			<option value="Honda">Honda</option>
-			<option value="Audi">Audi</option>
+		<select name="cars"> 
+			<option value="" name=""></option>
+			<option value="Totoya"name ="toyota">Totoya</option>
+			<option value="Honda"name ="honda">Honda</option>
+			<option value="Audi" name="audi">Audi</option>
 		</select><br>
 		<input type="submit" value="Register">
 		<input type="reset">
